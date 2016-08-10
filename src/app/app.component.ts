@@ -1,13 +1,10 @@
-import { Component } from '@angular/core';
-import {DataTable} from 'primeng/primeng';
-import {Column} from 'primeng/primeng';
+import {Component} from '@angular/core';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css'],
-  directives: [DataTable, Column]
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {
   title = 'app works!';
